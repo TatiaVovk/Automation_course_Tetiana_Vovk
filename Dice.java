@@ -19,6 +19,7 @@ public class Dice {
 
         private static void serveDices() {
         int dice1, dice2;
+        //test
         for (int round = 1; round <= 3; round++) {
             System.out.println("Round" + round);
             for (int player = 1; player <= noOfPlayers; player++) {
